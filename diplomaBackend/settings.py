@@ -82,7 +82,7 @@ DATABASES = {
         'NAME': 'diplomaBackend',
         'USER': 'postgres',
         'PASSWORD': '123456',
-        'HOST': 'localhost',
+        'HOST': 'postgres',
         'PORT': '5432',
     }
 }
