@@ -14,6 +14,17 @@ services:
     entrypoint: >
       bash -c "python manage.py migrate && python manage.py runserver 0.0.0.0:8000"
 
+  parser:
+    build:
+      dockerfile: DockerfileParser
+    container_name: diploma_parser
+    depends_on:
+      django:
+        condition: service_started
+    restart: unless-stopped
+    entrypoint: >
+      bash -c "python parse.py"
+
   db:
     hostname: postgres
     image: postgres:latest

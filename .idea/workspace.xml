@@ -4,20 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f9858e6-6148-4403-89f9-9965f6c6fa2a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/diplomaBackend.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diplomaBackend/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diplomaBackend/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diplomaBackend/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diplomaBackend/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diplomaBackend/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rest_api/serializers.py" afterDir="false" />
+    <list default="true" id="0f9858e6-6148-4403-89f9-9965f6c6fa2a" name="Changes" comment="added new functionality">
+      <change afterPath="$PROJECT_DIR$/DockerfileParser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cianparser/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cianparser/cianparser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cianparser/coefficient_dictionaries.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cianparser/constants.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cianparser/helpers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cianparser/parser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parse.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements_parser.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/diplomaBackend.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/diplomaBackend.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diplomaBackend/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/diplomaBackend/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest_api/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest_api/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/rest_api/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest_api/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/rest_api/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,14 +59,25 @@
     &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/eboni/PycharmProjects/diplomaBackend&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\eboni\PycharmProjects\diplomaBackend" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\eboni\PycharmProjects\diplomaBackend" />
+      <recent name="C:\Users\eboni\PycharmProjects\diplomaBackend\rest_api" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="diplomaBackend" type="Python.DjangoServer" factoryName="Django server">
       <module name="diplomaBackend" />
@@ -124,26 +139,49 @@
       <workItem from="1714987444837" duration="66000" />
       <workItem from="1714987858889" duration="3000" />
       <workItem from="1715171517317" duration="1162000" />
+      <workItem from="1715334707621" duration="130000" />
+      <workItem from="1715334855022" duration="199000" />
+      <workItem from="1715335066474" duration="30000" />
+      <workItem from="1715335177054" duration="1065000" />
+      <workItem from="1715336507981" duration="1410000" />
+      <workItem from="1715339102988" duration="112000" />
+      <workItem from="1715341999085" duration="673000" />
+      <workItem from="1715520809149" duration="3000" />
+      <workItem from="1715520898271" duration="820000" />
+      <workItem from="1715526390720" duration="1125000" />
+      <workItem from="1715605127269" duration="12000" />
+      <workItem from="1715608401849" duration="647000" />
+      <workItem from="1715609786897" duration="214000" />
+      <workItem from="1715682022979" duration="55000" />
+      <workItem from="1715859857333" duration="818000" />
+      <workItem from="1716212513665" duration="2454000" />
+      <workItem from="1716215003648" duration="3128000" />
+      <workItem from="1716238869814" duration="2047000" />
     </task>
+    <task id="LOCAL-00001" summary="added new functionality">
+      <option name="closed" value="true" />
+      <created>1715334753017</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1715334753017</updated>
+    </task>
+    <task id="LOCAL-00002" summary="added new functionality">
+      <option name="closed" value="true" />
+      <created>1715337913925</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1715337913925</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/rest_api/views.py</url>
-          <line>87</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/rest_api/views.py</url>
-          <line>9</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added new functionality" />
+    <option name="LAST_COMMIT_MESSAGE" value="added new functionality" />
   </component>
 </project>

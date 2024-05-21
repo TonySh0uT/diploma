@@ -15,6 +15,7 @@ class Flat(models.Model):
     street = models.CharField(max_length=256)
     underground = models.CharField(max_length=256)
     house = models.CharField(max_length=256)
+    time_to_underground = models.IntegerField()
     rooms = models.IntegerField()
     common_ecology_coeff = models.IntegerField()
     population_density_coeff = models.IntegerField()

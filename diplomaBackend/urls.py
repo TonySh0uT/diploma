@@ -16,10 +16,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from rest_api.views import FlatAPIView, FlatAPIInfo
+from rest_api.views import FlatAPIView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/v1/flats/', FlatAPIView.as_view()),
-    path('api/v1/info/', FlatAPIInfo.as_view()),
 ]

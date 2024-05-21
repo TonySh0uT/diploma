@@ -5,22 +5,6 @@ from rest_api.models import Flat
 from rest_framework.views import APIView
 from django.db.models import Avg, Min, Max, Sum
 
-
-class FlatAPIInfo(APIView):
-    def get(self, request):
-        info = {
-            'flats count': Flat.objects.count(),
-            'flats avg monthly price': round(Flat.objects.aggregate(Avg('price_per_month'))['price_per_month__avg'], 2),
-            'flats min monthly price': round(Flat.objects.aggregate(Min('price_per_month'))['price_per_month__min'], 2),
-            'flats max monthly price': round(Flat.objects.aggregate(Max('price_per_month'))['price_per_month__max'], 2)
-        }
-        return Response(info, status=200)
-
-
-
-# class FlatAPIInfo(APIView):
-#     def get(self, request):
-
 class FlatAPIView(APIView):
     def get(self, request):
         queryset = Flat.objects.all().values()
@@ -38,6 +22,8 @@ class FlatAPIView(APIView):
                     queryset = queryset.filter(price_per_month__gte=params[param])
                 elif param == "max_price":
                     queryset = queryset.filter(price_per_month__lte=params[param])
+                elif param == "time_to_underground_under":
+                    queryset = queryset.filter(time_to_underground__lte=params[param])
                 elif param == "rooms":
                     queryset = queryset.filter(rooms=params[param])
                 elif param == "region":
@@ -65,7 +51,7 @@ class FlatAPIView(APIView):
         except(ValueError):
             return Response("Wrong parameter value", status=400)
         if(queryset.count() == 0):
-            return Response("No flats fount", status=200)
+            return Response("No flats found", status=200)
         min_price = queryset.aggregate(Min('price_per_m2'))['price_per_m2__min']
         max_price = queryset.aggregate(Max('price_per_m2'))['price_per_m2__max']
         difference = max_price - min_price
