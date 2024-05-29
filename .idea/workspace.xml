@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f9858e6-6148-4403-89f9-9965f6c6fa2a" name="Changes" comment="added new functionality">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="0f9858e6-6148-4403-89f9-9965f6c6fa2a" name="Changes" comment="added readme">
+      <change afterPath="$PROJECT_DIR$/.gitingore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,7 +143,7 @@
       <workItem from="1716238869814" duration="2047000" />
       <workItem from="1716294795221" duration="3890000" />
       <workItem from="1716547394777" duration="899000" />
-      <workItem from="1716999306204" duration="623000" />
+      <workItem from="1716999306204" duration="878000" />
     </task>
     <task id="LOCAL-00001" summary="added new functionality">
       <option name="closed" value="true" />
@@ -178,7 +177,23 @@
       <option name="project" value="LOCAL" />
       <updated>1716297722249</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added readme">
+      <option name="closed" value="true" />
+      <created>1716999961453</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1716999961454</updated>
+    </task>
+    <task id="LOCAL-00006" summary="added readme">
+      <option name="closed" value="true" />
+      <created>1717000155803</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1717000155803</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,6 +212,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added new functionality" />
-    <option name="LAST_COMMIT_MESSAGE" value="added new functionality" />
+    <MESSAGE value="added readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="added readme" />
   </component>
 </project>
