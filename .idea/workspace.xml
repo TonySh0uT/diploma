@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0f9858e6-6148-4403-89f9-9965f6c6fa2a" name="Changes" comment="added readme">
-      <change afterPath="$PROJECT_DIR$/.gitingore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitingore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,7 +143,7 @@
       <workItem from="1716238869814" duration="2047000" />
       <workItem from="1716294795221" duration="3890000" />
       <workItem from="1716547394777" duration="899000" />
-      <workItem from="1716999306204" duration="878000" />
+      <workItem from="1716999306204" duration="985000" />
     </task>
     <task id="LOCAL-00001" summary="added new functionality">
       <option name="closed" value="true" />
@@ -193,7 +193,23 @@
       <option name="project" value="LOCAL" />
       <updated>1717000155803</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="added readme">
+      <option name="closed" value="true" />
+      <created>1717000197180</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1717000197180</updated>
+    </task>
+    <task id="LOCAL-00008" summary="added readme">
+      <option name="closed" value="true" />
+      <created>1717000213991</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1717000213991</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
