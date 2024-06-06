@@ -27,7 +27,7 @@ services:
 
   db:
     hostname: postgres
-    image: postgres:latest
+    image: mirror.gcr.io/postgres:latest
     ports:
       - "5432:5432"
     restart: unless-stopped
